@@ -1,0 +1,53 @@
+body {
+    background-color: #B40096;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    color: #B40096;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}
+
+.data-display {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
